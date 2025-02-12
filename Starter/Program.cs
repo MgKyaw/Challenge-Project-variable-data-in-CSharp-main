@@ -197,7 +197,7 @@ do
                         {
                             // #3b update message to reflect term 
                             // #3c set a flag "this dog" is a match
-                            Console.WriteLine($"\nOur dog {ourAnimals[i, 3]} is a {animal} match!");
+                            Console.WriteLine($"\nOur dog Nickname: {ourAnimals[i, 3]} matches your search for {animal}");
 
                             noMatchesDog = false;
                         }
