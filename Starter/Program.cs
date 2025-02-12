@@ -148,7 +148,7 @@ do
                 //     Console.WriteLine();
                 // }
 
-                Console.WriteLine($"\r\nEnter the search terms separated by commas");
+                Console.WriteLine($"\r\nEnter dog characteristics to search for separated by commas");
                 readResult = Console.ReadLine();
                 if (readResult != null)
                 {
