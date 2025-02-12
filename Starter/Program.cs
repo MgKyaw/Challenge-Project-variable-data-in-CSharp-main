@@ -155,7 +155,9 @@ do
             {
                 dogSearches[i] = dogSearches[i].Trim();
             }
-            
+
+            Array.Sort(dogSearches);
+
             bool noMatchesDog = true;
             string dogDescription = "";
 
