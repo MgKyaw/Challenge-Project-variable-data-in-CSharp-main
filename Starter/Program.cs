@@ -150,6 +150,12 @@ do
 
             string[] dogSearches = dogCharacteristic.Split(",");
             
+            // Trim array elements
+            for (int i = 0; i < dogSearches.Length; i++)
+            {
+                dogSearches[i] = dogSearches[i].Trim();
+            }
+            
             bool noMatchesDog = true;
             string dogDescription = "";
 
