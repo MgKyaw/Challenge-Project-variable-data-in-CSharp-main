@@ -215,7 +215,8 @@ do
 
             if (noMatchesDog)
             {
-                Console.WriteLine("No matches found for any available dogs");
+                // Console.WriteLine("No matches found for any available dogs");
+                Console.WriteLine($"None of our dogs are a match for: {string.Join(",", animalsArray)}");
             }
 
             Console.WriteLine("\n\rPress the Enter key to continue");
