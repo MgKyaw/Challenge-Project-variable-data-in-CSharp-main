@@ -148,6 +148,8 @@ do
                 }
             }
 
+            string[] dogSearches = dogCharacteristic.Split(",");
+            
             bool noMatchesDog = true;
             string dogDescription = "";
 
