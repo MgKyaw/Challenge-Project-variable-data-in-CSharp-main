@@ -134,32 +134,19 @@ do
             // #1 Display all dogs with a multiple search characteristics
 
             string dogCharacteristic = "";
-            int animalsCount = 0;
             string[] animalsArray = null;
 
-            while (animalsArray == null)
+            while (dogCharacteristic == "")
             {
                 // #2 have user enter multiple comma separated characteristics to search for
-                // Console.WriteLine($"\r\nEnter one desired dog characteristic to search for");
-                // readResult = Console.ReadLine();
-                // if (readResult != null)
-                // {
-                //     dogCharacteristic = readResult.ToLower().Trim();
-                //     Console.WriteLine();
-                // }
-
                 Console.WriteLine($"\r\nEnter dog characteristics to search for separated by commas");
                 readResult = Console.ReadLine();
                 if (readResult != null)
                 {
-                    string[] inputs = readResult.Split(',');
-                    Array.Sort(inputs);
-                    // animalsArray =  new string[inputs.Length];
-                    animalsArray = inputs;
+                    dogCharacteristic = readResult.ToLower().Trim();
                     Console.WriteLine();
                 }
             }
-
 
             bool noMatchesDog = true;
             string dogDescription = "";
